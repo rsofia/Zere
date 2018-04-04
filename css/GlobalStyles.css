@@ -1,0 +1,80 @@
+
+.imageIcon
+{
+	max-width:50px; 
+	margin: -15px;
+}
+
+	
+/* unvisited link */
+a:link {
+    color: black; 
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: gray !important;
+}
+
+/* selected link */
+a:active {
+    color: gray;
+}
+
+
+.grayTextColor
+{
+	color: #7a858c;
+}
+
+.icon-bar {
+    width: 100%;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 30px;
+}
+
+.orderCompleted
+{
+	background-color: #2FDB18FF;
+}
+
+.orderPending
+{
+	background-color: #FFCE00FF;
+}
+
+.notiUnread
+{
+	background-color: #738ECEFF;
+}
+
+.notiRead
+{
+	background-color: #DEE3F0FF;
+}
+
+.notificaciones
+{
+	padding-left: -20px;
+}
+
+.separador
+{
+	height: 1px;
+	width: 100px;
+	background-color: white;
+}
